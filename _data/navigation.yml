@@ -1,0 +1,15 @@
+nav:
+  - title: "About Me"
+    section: aboutme
+
+  - title: "Skills"
+    section: skills
+
+  - title: "Projects"
+    section: projects
+    
+  - title: "Papers"
+    section: papers
+
+  - title: "Contact"
+    section: contact

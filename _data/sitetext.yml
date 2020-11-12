@@ -1,0 +1,49 @@
+header:
+    title: Hello, I'm Inhwan Kim who dreams of becoming
+    text: the best data scientist.
+    button:
+    buttonlink:
+
+aboutme:
+    title: "About Me"
+    section: aboutme
+    subhead: "Subhead 한글입니다"
+    text: "안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다. 안녕하세요, 지금부터 제 소개를 시작하겠습니다."
+
+skills:
+    title: "Skills"
+    section: skills
+    tools:
+      - name: Python
+      - name: Java
+      - name: JavaScript
+      - name: C
+      - name: Tensorflow
+      - name: Pytorch
+      - name: Keras
+      - name: Android
+      - name: PostgreSQL
+      - name: Git
+      - name: SVN
+
+projects:
+    title: "Projects"
+    section: projects
+
+papers:
+    title: "Papers"
+    section: papers
+    downloadbutton: "Download PDF"
+    closebutton: "Close"
+
+contact:
+    title: "Contact"
+    section: contact
+    
+footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://github.com/Kim-inhwan
+        icon: "fab fa-github"
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

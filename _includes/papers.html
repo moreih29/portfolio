@@ -1,0 +1,28 @@
+<!-- papers Grid -->
+<section class="bg-light page-section" id="{{ site.data.sitetext.papers.section | default: "papers" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.papers.title | markdownify | default: "Papers" }}</h2>
+      </div>
+    </div>
+    <div class="row">
+	{% for paper in site.papers %}
+	  <div class="col-lg-12 col-md-12 col-sm-12">
+	    <div class="card card-shadow">
+		  <div class="card-body">
+		    <h5> {{ paper.title }} </h5>
+			<p> {{ paper.content }} </p>
+			{% if paper.pdf %}
+			<a href="{{ paper.pdf }}" target="_blank">
+			<button class="btn btn-info"><i class="fa fa-file-pdf"></i></button></a>
+			<a href="{{ paper.pdf }}" download="{{ paper.title }}">
+			<button class="btn btn-success"><i class="fa fa-download"></i></button></a>
+			{% endif %}
+		  </div>
+		</div>
+	  </div>
+	{% endfor %}
+    </div>
+  </div>
+</section>
