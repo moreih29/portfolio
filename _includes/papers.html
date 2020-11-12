@@ -11,8 +11,9 @@
 	  <div class="col-lg-12 col-md-12 col-sm-12">
 	    <div class="card card-shadow">
 		  <div class="card-body">
-		    <h5> {{ paper.title }} </h5>
-			<p> {{ paper.content }} </p>
+		    <h5> {{ paper.title }} <button class="btn btn-link btn-sm" data-toggle="modal" href="#p{{ forloop.index }}">view abstract</button> </h5> 
+			<p> {{ paper.authors }} </p>
+			<p> {{ paper.host }}, <i>{{ paper.pubDate }}</i> </p>
 			{% if paper.pdf %}
 			<a href="{{ paper.pdf }}" target="_blank">
 			<button class="btn btn-info"><i class="fa fa-file-pdf"></i></button></a>
@@ -26,3 +27,4 @@
     </div>
   </div>
 </section>
+{% include papers_modals.html %}
