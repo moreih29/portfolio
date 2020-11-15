@@ -9,9 +9,9 @@
     <div class="row">
 	{% for project in site.projects %}
 		<div class="col-lg-12 col-md-12 col-sm-12">
-			{% if project.link %}
-			<a href="{{ project.link }}" target="_blank" alt="">
-			{% endif %}
+			<!-- {% if project.link %} -->
+			<!-- <a href="{{ project.link }}" target="_blank" alt=""> -->
+			<!-- {% endif %} -->
 			  <div class="card card-1">
 				<div class="card-body row">
 				  <div class="col-lg-4 col-md-4 col-sm-4">
@@ -25,12 +25,26 @@
 					{% if project.detail %}
 					<p class="card-text"> {{ project.detail }} </p>
 					{% endif %}
+					{% if project.link %}
+					<a href="{{ project.link }}" target="_blank" alt="">
+					<button class="btn btn-link btn-sm">view project</a></button>
+					{% endif %}
+					{% if project.subprojects %}
+					<ul>
+					{% for subproject in project.subprojects %}
+					<li><b> {{ subproject.title }} 
+					<a href="{{ subproject.link }}" target="_blank" alt="">
+					<button class="btn btn-link btn-sm">view project</button></a>
+					</b></li>
+					{% endfor %}
+					{% endif %}
+					</ul>
 				  </div>
 				</div>
 			  </div>
-			{% if project.link %}
-			</a>
-			{% endif %}
+			<!-- {% if project.link %} -->
+			<!-- </a> -->
+			<!-- {% endif %} -->
 		</div>
 	{% endfor %}
 	</div>
