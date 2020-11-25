@@ -7,7 +7,7 @@ detail: "웹 데이터 및 실시간 사용자의 이동 경로를 기반으로 
 link: 
 subprojects:
   - title: "웹 데이터 기반 감염병 토픽 정보 제공 시스템"
-    link: "http://www.epidemic.co.kr/media/newtopics"
+    link: "https://github.com/Kim-inhwan/Xproject"
   - title: "무의미한 웹 데이터 제거를 위한 word2vec-CNN 모델"
     link: "https://github.com/Kim-inhwan/Word2vec-CNN-for-classfication"
 
