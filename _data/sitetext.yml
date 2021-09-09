@@ -1,6 +1,6 @@
 header:
-    title: Hello, I'm Inhwan Kim who dreams of becoming
-    text: the best data scientist
+    title: Hello, I'm Inhwan Kim who dreams of becoming 안녕하세요
+    text: the best data scientist 안녕하세요
     button:
     buttonlink:
 
@@ -18,11 +18,9 @@ skills:
       - name: Python
       - name: Java
       - name: JavaScript
-      - name: C
+      - name: Django
+      - name: Spring
       - name: Tensorflow
-      - name: Pytorch
-      - name: Keras
-      - name: Android
       - name: PostgreSQL
       - name: Git
       - name: SVN
@@ -44,7 +42,7 @@ contact:
 footer:
     legal: "Privacy Policy"
     social:
-      - url: https://github.com/Kim-inhwan
+      - url: https://github.com/moreih29
         icon: "fab fa-github"
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

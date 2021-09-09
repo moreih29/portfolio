@@ -1,9 +1,9 @@
 
 theme: jekyll-agency
-url    : "https://kim-inhwan.github.io/" 
+url    : "https://moreih29.github.io/" 
 baseurl: ""
 
-title      : Inhwan Kim's portfolio
+title      : Inhwan's portfolio
 footer    : Inhwan Kim
 email      : moreih29@gmail.com 
 description: "This site introduces the data scientist Inhwan Kim."
