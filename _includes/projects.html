@@ -19,17 +19,37 @@
   {% for project in projects.assignments %}
     <div class="item">
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+      <div class="row" style="margin-left: 0px; margin-right: 0px;">
+        <h4>{{project.title}}</h4>
+        {% if project.period %}<p>{{project.period}}</p>{% endif %}
+        {% if project.detail %}<p>{{project.detail}}</p>{% endif %}
+        {% if project.link %}<p>link: <a href="{{project.link}}" target="_blank">{{project.link}}</a></p>{% endif %}
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+        {% if project.skills %}
+        <style>
+          .skill {
+            display: inline-block;
+            background-color: lightgray;
+            text-transform: uppercase;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 10px;
+            line-height: 40px;
+            transition: all 0.3s;
+            font-family: inherit;
+          }
+          .skill:active, .skill:hover  {
+            background-color: gray;
+            text-decoration: none;
+          }
+        </style>
+        <p>
+        {% for skill in project.skills %}
+        <a class="skill">{{skill}}</a>
+        {% endfor %}
+        </p>
+        {% endif %}
+      </div>
 
     </div><!--//item-->
   {% endfor %}

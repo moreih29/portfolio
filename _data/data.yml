@@ -3,189 +3,187 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: 김인환
+    tagline: ML Engineer <br> / Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: moreih29@gmail.com
+    phone: 
+    website: #do not add http://
+    linkedin: 
+    xing: 
+    github: moreih29
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
-      - idiom: English
-        level: Native
+      # - idiom: English
+      #   level: Native
 
-      - idiom: French
-        level: Professional
+      # - idiom: French
+      #   level: Professional
 
-      - idiom: Spanish
-        level: Professional
+      # - idiom: Spanish
+      #   level: Professional
 
     interests:
-      - item: Climbing
-        link:
+      - item: Machine learning
+      #   link:
 
-      - item: Snowboarding
-        link:
+      - item: Data analysis
+      #   link:
 
-      - item: Cooking
-        link:
+      - item: Time-series forecasting
+      #   link:
+
+      - item: Natural language processing
 
 career-profile:
-    title: Career Profile
+    title: About Me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      컴퓨터 과학을 전공했으며, 질병과 관련된 공공 데이터/웹 데이터 분석 및 시계열 예측 연구를 해왔습니다. 
+      이 과정에서, 자연어 처리 및 시계열 예측 분야의 논문들을 읽고 모델들을 설계한 경험이 있습니다.
+      해당 경험을 살린 다양한 종류의 데이터 분석 및 ML 기술들을 기반으로 한 서비스 개발 및 운영에 관심이 있습니다.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: MS in Computer Science
+      university: Sangmyung University, Seoul
+      time: 2019.09 - 2021.08 
+      details: 
+
+    - degree: BS in Computer Science
+      university: Sangmyung University, Seoul
+      time: 2016.03 - 2019.08
+      details: 
+
+# experiences:
+#     - role: Lead Developer
+#       time: 2015 - Present
+#       company: Startup Hubs, San Francisco
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+#         enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+#         error sit voluptatem accusantium doloremque laudantium, totam rem
+#         aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+#         architecto beatae vitae dicta sunt explicabo.
+#           - Bullet point
+#           - Bullet point
+#     - role: Senior Software Engineer
+#       time: 2014 - 2015
+#       company: Google, London
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+#     - role: UI Developer
+#       time: 2012 - 2014
+#       company: Amazon, London
+#       details: |
+#         Describe your role here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+#         Cum sociis natoque penatibus et magnis dis parturient montes,
+#         nascetur ridiculus mus. Donec quam felis, ultricies nec,
+#         pellentesque eu, pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 국내 코로나 예측 및 현황 정보 제공 시스템 (코로나내일)
+        period: 2021.07 - 현재
+        detail: >
+          2019년 처음 발생한 이후로 현재까지 코로나는 사회적으로 큰 문제를 야기하고 있습니다. 
+          정부 및 많은 기관에서 통계 정보를 제공하고 있지만, 오늘 얻을 수 있는 정보는 어제의 통계 정보입니다.
+          "코로나내일"은 코로나 예측 정보를 제공하여 사람들에게 미래를 대비하고 행동할 수 있는 기회를 제공합니다.
+        skills:
+          - python
+          - django
+          - javascript
+          - tensorflow
+          - seq2seq
+          - docker
+          - aws
+        link: "https://coronatomorrow.co.kr"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 웹 데이터 기반 전 세계 질병 정보 제공 시스템
+        period: 2018.09 - 현재
+        detail: >
+          사람들은 웹에 많은 정보를 공유하기 때문에, 웹 데이터의 발생 추이는 실제 질병의 발생과 상관관계를 갖습니다.
+          본 시스템은 전 세계의 다양한 국가, 다양한 질병에 대해 웹 데이터를 수집하고 이에 대한 통계 자료를 제공합니다.
+        skills:
+          - java
+          - spring
+          - javascript
+          - word cloud
+          - tensorflow
+          - word2vec
+          - bilstm
+        link: "http://www.epidemic.co.kr/worldwide/news"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro: 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Long-term Influenza Outbreak Forecast Using Time-precedence Correlation of Web Data"
+        link: "https://doi.org/10.1109/TNNLS.2021.3106637"
+        authors: Jang, Beakcheol, Inhwan Kim, and Jong Wook Kim
+        conference: IEEE Transactions on Neural Networks and Learning Systems (2021), IF:8.793
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "EagleEye: A Worldwide Disease-Related Topic Extraction System Using a Deep Learning Based Ranking Algorithm and Internet-Sourced Data"
+        link: "https://doi.org/10.3390/s21144665"
+        authors: Jang, Beakcheol, Myeonghwi Kim, Inhwan Kim, and Jong Wook Kim
+        conference: "Sensors 21.14 (2021): 4665., IF:3.275"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Effective Training Data Extraction Method to Improve Influenza Outbreak Prediction from Online News Articles: Deep Learning Model Study"
+        link: "https://doi.org/10.2196/23305"
+        authors: Jang, Beakcheol, Inhwan Kim, and Jong Wook Kim
+        conference: "JMIR Medical Informatics 9.5 (2021): e23305., IF:2.96"
+
+      - title: "Word2vec convolutional neural networks for classification of news articles and tweets"
+        link: "https://doi.org/10.1371/journal.pone.0220976"
+        authors: Jang, Beakcheol, Inhwan Kim, and Jong Wook Kim
+        conference: "PloS one 14.8 (2019): e0220976., IF:3.240"
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 90%
+      
+      - name: Tensorflow
+        level: 80%
+
+      - name: Java & Spring
+        level: 70%
+
+      - name: Docker
+        level: 70%
 
       - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
         level: 60%
 
 footer: >
